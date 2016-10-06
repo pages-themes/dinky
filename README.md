@@ -1,4 +1,4 @@
-# Dinky `jekyll-theme-dinky` gem
+# `jekyll-theme-dinky` gem
 
 Dinky is a Jekyll theme for [GitHub Pages](https://pages.github.com).
 
