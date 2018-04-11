@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'jekyll-theme-dinky'
-  s.version       = '0.1.0'
+  s.version       = '0.1.1'
   s.license       = 'CC0-1.0'
   s.authors       = ['Diana Mounter', 'GitHub, Inc.']
   s.email         = ['opensource+jekyll-theme-dinky@github.com']
