@@ -15,6 +15,9 @@
   <body>
     <div class="wrapper">
       <header>
+        {% if site.logo -%}
+          <img class="header" src="{{ site.logo | append: '?v=' | append: site.github.build_revision | relative_url }}" alt="{{ site.title | default: site.github.repository_name | append: ' - logo' }}">
+        {%- endif %}
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
