@@ -16,9 +16,9 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-
+        <h1 class="header">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <p class="header">{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        
         <ul>
           {% if site.show_downloads %}
             <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
